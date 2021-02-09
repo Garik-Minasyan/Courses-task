@@ -1,0 +1,48 @@
+@media only screen and (max-width: 865px) {
+    .app {
+        height: 1000px;
+    }
+    .cantrolPanel{
+        .coursesByCondition {
+            display: block;
+            p {
+                margin-left: 20px;
+            }
+            .coursesItem {
+                margin-left: 20px;
+                margin-top: 30px;
+            }
+        }
+        .courses {
+            margin-left: 20px;
+            .titleLessons {
+                top: 21px;
+                left: 21px;
+             }
+             .c {
+                top: 21px;
+                right: 42px;
+            }
+            .b {
+                top: 15px;
+            }
+            .play {
+                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: rgba(255, 255, 255, 0.4);
+                width: 58px;
+                height: 54px;
+                bottom: 25px;
+                left: 19px;
+            }
+        }
+      
+    }
+
+   
+    .leftPanel {
+        display: none;
+    }
+  }
